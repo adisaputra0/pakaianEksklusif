@@ -1,0 +1,26 @@
+
+.bg-shop {
+    background-image: url("gambar/pakaian.jpg") !important;
+    background-size: cover;
+    color: white;
+}
+
+.h-100vh {
+    height: 100vh;
+}
+
+.card {
+    transition: all 0.5s ease;
+}
+
+.card:hover {
+    transform: translateY(-25px);
+}
+
+#kemeja,
+#celana,
+#cardigan,
+#rok {
+    background: #000430;
+    color: white;
+}

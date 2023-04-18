@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pakaian Eksklusif</title>
+    <link href="bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top p-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Pakaian Eksklusif</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Pria
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#kemeja">Kemeja</a></li>
+                            <li><a class="dropdown-item" href="#celana">Celana</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Wanita
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#cardigan">Cardigan</a></li>
+                            <li><a class="dropdown-item" href="#rok">Rok</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success search">Search</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="p-5 mb-4 bg-shop h-100vh d-flex align-items-center">
+        <div class="container-fluid py-5">
+            <h1 class="display-5 fw-bold">Pakaian Eksklusif</h1>
+            <p class="col-md-5 fs-4">Jangan biarkan gaya Anda tertinggal. Dapatkan koleksi baju terbaru yang sesuai
+                dengan kepribadian Anda di toko kami.</p>
+            <button class="btn btn-primary btn-lg beliSekarang" type="button">Beli Sekarang</button>
+        </div>
+    </div>
+
+    <h1 class="my-5 text-center" id="kemeja">Kemeja</h1>
+    <div class="d-flex flex-wrap justify-content-center">
+        <div class="card my-2 mx-4" style="width: 18rem;">
+            <img src="gambar/kemeja_lengan_pendek.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Kemeja Formal</h5>
+                <p class="card-text">Kemeja formal adalah pilihan yang tepat untuk Anda yang ingin tampil rapi dan
+                    profesional dalam acara-acara formal seperti pertemuan bisnis, atau acara resmi
+                    lainnya.</p>
+                <a href="#" class="btn btn-primary" onclick="tombol()">Beli Sekarang</a>
+            </div>
+        </div>
+        <div class="card my-2 mx-4" style="width: 18rem;">
+            <img src="gambar/kemeja_kasual.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Kemeja Kasual</h5>
+                <p class="card-text">Kemeja kasual adalah pilihan yang tepat untuk Anda yang ingin tampil santai dan
+                    stylish dalam acara-acara santai seperti hangout dengan teman, acara keluarga, atau liburan. </p>
+                <a href="#" class="btn btn-primary" onclick="tombol()">Beli Sekarang</a>
+            </div>
+        </div>
+        <div class="card my-2 mx-4" style="width: 18rem;">
+            <img src="gambar/kemeja_flanel.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Kemeja Flanel</h5>
+                <p class="card-text">Kemeja flanel yang kami tawarkan terbuat dari bahan flanel yang berkualitas tinggi
+                    dan nyaman dipakai di cuaca dingin maupun hangat.</p>
+                <a href="#" class="btn btn-primary" onclick="tombol()">Beli Sekarang</a>
+            </div>
+        </div>
+        <div class="card my-2 mx-4" style="width: 18rem;">
+            <img src="gambar/kemeja_denim.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Kemeja Denim</h5>
+                <p class="card-text">Kemeja denim kami tersedia dalam berbagai ukuran dan model yang dapat disesuaikan
+                    dengan kebutuhan Anda. Dapatkan kemeja denim berkualitas dari toko kami.</p>
+                <a href="#" class="btn btn-primary" onclick="tombol()">Beli Sekarang</a>
+            </div>
+        </div>
+    </div>
+
+    <h1 class="my-5 text-center" id="celana">Celana</h1>
+    <div class="d-flex flex-wrap justify-content-center">
+        <div class="card my-2 mx-4" style="width: 18rem;">
+            <img src="gambar/skinny_jeans.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Skinny Jeans</h5>
+                <p class="card-text">Skinny jeans adalah celana jeans yang ketat pada seluruh bagian tubuh dan sangat
+                    cocok bagi pria yang ingin tampil modis dan stylish.</p>
+                <a href="#" class="btn btn-primary" onclick="tombol()">Beli Sekarang</a>
+            </div>
+        </div>
+        <div class="card my-2 mx-4" style="width: 18rem;">
+            <img src="gambar/straight_leg_jeans.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Straight Leg Jeans</h5>
+                <p class="card-text">Straight leg jeans adalah celana jeans dengan potongan lurus dari pinggang hingga
+                    ke bawah, memberikan tampilan yang klasik. </p>
+                <a href="#" class="btn btn-primary" onclick="tombol()">Beli Sekarang</a>
+            </div>
+        </div>
+        <div class="card my-2 mx-4" style="width: 18rem;">
+            <img src="gambar/bootcut_jeans.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Bootcut Jeans</h5>
+                <p class="card-text">Celana ini sangat cocok bagi pria yang ingin tampil santai dan kasual dengan sepatu
+                    boots. Dapatkan koleksi di toko kami!</p>
+                <a href="#" class="btn btn-primary" onclick="tombol()">Beli Sekarang</a>
+            </div>
+        </div>
+        <div class="card my-2 mx-4" style="width: 18rem;">
+            <img src="gambar/relaxed_fit_jeans.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Relaxed Fit Jeans</h5>
+                <p class="card-text">Relaxed fit jeans adalah celana jeans yang memiliki potongan longgar pada seluruh
+                    bagian tubuh, memberikan tampilan bagus.</p>
+                <a href="#" class="btn btn-primary" onclick="tombol()">Beli Sekarang</a>
+            </div>
+        </div>
+    </div>
+
+    <h1 class="my-5 text-center" id="cardigan">Cardigan</h1>
+    <div class="d-flex flex-wrap justify-content-center">
+        <div class="card my-2 mx-4" style="width: 18rem;">
+            <img src="gambar/cardigan_panjang.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Cardigan Panjang</h5>
+                <p class="card-text">Cardigan panjang adalah pilihan yang tepat untuk menemani hari-hari musim dingin.
+                </p>
+                <a href="#" class="btn btn-primary" onclick="tombol()">Beli Sekarang</a>
+            </div>
+        </div>
+        <div class="card my-2 mx-4" style="width: 18rem;">
+            <img src="gambar/cardigan_pendek.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Cardigan Pendek</h5>
+                <p class="card-text">Cardigan pendek adalah pilihan yang tepat untuk menemani hari-hari musim semi atau
+                    gugur.</p>
+                <a href="#" class="btn btn-primary" onclick="tombol()">Beli Sekarang</a>
+            </div>
+        </div>
+        <div class="card my-2 mx-4" style="width: 18rem;">
+            <img src="gambar/cardingan_sweater.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Cardigan Sweater</h5>
+                <p class="card-text">Cardigan sweater adalah pilihan yang tepat untuk menemani hari-hari musim dingin.
+                </p>
+                <a href="#" class="btn btn-primary" onclick="tombol()">Beli Sekarang</a>
+            </div>
+        </div>
+        <div class="card my-2 mx-4" style="width: 18rem;">
+            <img src="gambar/cardigan_oversize.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Cardigan Oversize</h5>
+                <p class="card-text">Cardigan oversize adalah pilihan yang tepat bagi Anda yang ingin tampil trendy dan
+                    stylish.</p>
+                <a href="#" class="btn btn-primary" onclick="tombol()">Beli Sekarang</a>
+            </div>
+        </div>
+    </div>
+
+    <h1 class="my-5 text-center" id="rok">Rok</h1>
+    <div class="d-flex flex-wrap justify-content-center">
+        <div class="card my-2 mx-4" style="width: 18rem;">
+            <img src="gambar/rok_maxi.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Rok Maxi</h5>
+                <p class="card-text">Rok ini memberikan tampilan yang elegan dan sopan, serta cocok untuk berbagai
+                    kesempatan, baik formal maupun kasual.
+                </p>
+                <a href="#" class="btn btn-primary" onclick="tombol()">Beli Sekarang</a>
+            </div>
+        </div>
+        <div class="card my-2 mx-4" style="width: 18rem;">
+            <img src="gambar/rok_midi.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Rok Midi</h5>
+                <p class="card-text">Rok ini sangat cocok untuk dipakai pada acara formal maupun santai, karena
+                    memberikan tampilan yang elegan dan feminin.</p>
+                <a href="#" class="btn btn-primary" onclick="tombol()">Beli Sekarang</a>
+            </div>
+        </div>
+        <div class="card my-2 mx-4" style="width: 18rem;">
+            <img src="gambar/rok_pencil.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Rok Pencil</h5>
+                <p class="card-text">Rok ini memberikan kesan elegan dan profesional, sehingga sering dipakai untuk
+                    acara formal seperti pekerjaan atau rapat.
+                </p>
+                <a href="#" class="btn btn-primary" onclick="tombol()">Beli Sekarang</a>
+            </div>
+        </div>
+        <div class="card my-2 mx-4" style="width: 18rem;">
+            <img src="gambar/rok_a_line.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Rok A Line</h5>
+                <p class="card-text">Rok ini memberikan tampilan yang feminin dan anggun, serta sangat nyaman dipakai
+                    sehari-hari. Rok ini bisa dipakai kapanpun</p>
+                <a href="#" class="btn btn-primary" onclick="tombol()">Beli Sekarang</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
+    </script>
+    <script src="sweetalert2@11.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
